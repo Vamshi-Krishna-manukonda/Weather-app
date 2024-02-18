@@ -1,0 +1,17 @@
+mat-card {
+    height: 300px;
+    left: 350px;
+    width: 600px;
+    text-align: center;
+    /* margin-top: 125px; */
+    background: linear-gradient(45deg,  rgba(66, 183, 245,0.8) 0%,rgba(66, 245, 189,0.4) 100%);
+    color: #ffffff;
+    margin-top: 25px;
+    border-radius: 20px;
+}
+mat-label{
+    color: #ffffff;
+}
+.header{
+    font-weight: 500;
+}

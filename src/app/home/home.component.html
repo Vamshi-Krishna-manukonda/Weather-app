@@ -1,0 +1,70 @@
+<div class="Parent">
+    <div class="child">
+
+        <mat-toolbar>
+            <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+                <mat-icon>sunny</mat-icon>
+            </button>
+            <span>Weather</span>
+            <div class="form-inline">
+                <select class="form-control" #selectedLang (change)="switchLang(selectedLang.value)">
+                    <option *ngFor="let language of translate.getLangs()" [value]="language"
+                        [selected]="language === translate.currentLang">
+                        {{language}}
+                    </option>
+                </select>
+            </div>
+            <span class="example-spacer"></span>
+            <div class="logout">
+                <button mat-icon-button class="example-icon" matTooltip="Logout" (click)="logout()"
+                    aria-label="Example icon-button with menu icon">
+                    <mat-icon>logout</mat-icon>
+                </button>
+            </div>
+        </mat-toolbar>
+
+        <!-- {{data.name | translate}} -->
+
+        <!-- <mat-card> -->
+        <!-- <div class="weatherInformation">
+        {{stringData | translate}}
+    </div>
+     -->
+        <div class="child">
+            <div *ngFor="let data of weatherUpadte">
+                <span>Current Weather Information Of Location {{data.name}}</span>
+                <div>
+                    <label>Name :</label>
+                    {{data.name | translate}}
+                </div>
+                <div>
+                    <label>Region :</label>
+                    {{data.tz_id |translate}}
+                </div>
+                <div>
+                    <label>Sub Region :</label>
+                    {{data.region |translate}}
+                </div>
+                <div>
+                    <label>country :</label>
+                    {{data.country |translate}}
+                </div>
+                <div>
+                    <label>Latitude :</label>
+                    {{data.lat |translate}}
+                </div>
+                <div>
+                    <label>Longitude :</label>
+                    {{data.lon |translate}}
+                </div>
+                <div>
+                    <label>Time :</label>
+                    {{data.localtime |translate}}
+                </div>
+
+            </div>
+        </div>
+        <!-- <button class="button-txt" (click)="refresh()" type="submit">Refresh<mat-icon>refresh</mat-icon></button> -->
+        <!-- </mat-card> -->
+    </div>
+</div>

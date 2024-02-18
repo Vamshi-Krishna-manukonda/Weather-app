@@ -1,0 +1,105 @@
+mat-card {
+    height: 550px;
+    left: 350px;
+    width: 600px;
+    text-align: center;
+    background: linear-gradient(45deg,  rgba(66, 183, 245,0.8) 0%,rgba(66, 245, 189,0.4) 100%);
+    color: #ffffff;
+    margin-top: 25px;
+    border-radius: 20px;
+
+}
+.Not-an-User{
+    margin-top: 30px;
+}
+.container{
+    background-color: #ffffff;
+}
+
+.Action-btn{
+    background: transparent
+}
+mat-label{
+    color: #ffffff;
+}
+mat-form-field{
+    
+    /* margin: 1px !important; */
+}
+.register{
+font-weight: 500;
+margin-right: 50rem;
+font-size: 25px;
+}
+/* ::ng-deep .mat-input-element::placeholder{
+    color: red;
+} */
+
+
+
+/* .container {
+    position: relative;
+    width: 256px;
+    height: 256px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container span {
+    position: absolute;
+    left: 0;
+    width: 32px;
+    height: 6px;
+    background: #2c4766;
+    border-radius: 8px;
+    transform-origin: 128px;
+    transform: scale(2.2) rotate(calc(var(--i) * (360deg / 50)));
+    animation: animateBlink 3s linear infinite;
+    animation-delay: calc(var(--i) * (3s / 50));
+}   
+.register-box {
+    position: absolute;
+    width: 400px;
+}
+.register-box form {
+    width: 100%;
+    padding: 0 50px;
+}
+.input-box {
+  
+    background: transparent;
+    border: 2px solid #2c4766;
+    font-size: 1em;
+    color: #fff;
+    border-radius: 20px;
+    margin-top:10px;
+    width: 300px;
+
+
+}
+
+.title {
+    bottom: 30px;
+    right: 0;
+    /* margin-left: 300px; */
+    /* margin-bottom: 35px;
+} */
+/* 
+@keyframes animateBlink {
+    0% {
+        background: #0ef;
+    }
+
+    25% {
+        background: #2c4766;
+    }
+}
+
+.main-class {
+    /* background: #1f293a; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1f293a;
+} */ 

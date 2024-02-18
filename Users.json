@@ -1,0 +1,59 @@
+{
+  "signupUsersList": [
+    {
+      "id": "7413",
+      "empName": "vamshi",
+      "email": "Vamshi@01.com",
+      "password": "14445",
+      "mobileNO": 9398894863,
+      "gender": "Male",
+      "date": "1997-01-25T18:30:00.000Z",
+      "address": "2-35, chennaram"
+    },
+    {
+      "id": "6c2c",
+      "empName": "krishna",
+      "email": "krishna@gmail.com",
+      "password": "123456",
+      "mobileNO": 9865858596,
+      "gender": "Male",
+      "date": "2024-02-04T18:30:00.000Z",
+      "Address": ""
+    },
+    {
+      "id": "ee1e",
+      "empName": "preet",
+      "email": "Kreet@gmail.com",
+      "password": "987456",
+      "mobileNO": 9888989789,
+      "gender": "Female",
+      "date": "2021-01-04T18:30:00.000Z",
+      "Address": ""
+    },
+    {
+      "id": "8dcf",
+      "empName": "Vamshi Krishna",
+      "email": "Vamshi@011.com",
+      "password": "Vamshi01",
+      "mobileNO": 9652158151,
+      "gender": "Male",
+      "date": "2024-02-03T18:30:00.000Z",
+      "Address": "Hyderabad"
+    },
+    {
+      "id": "0b60",
+      "empName": "Mocha",
+      "email": "Mocha@gmail.com",
+      "password": "Bengaluru@01",
+      "mobileNO": 9888965645,
+      "gender": "Female",
+      "date": "2016-01-03T18:30:00.000Z",
+      "Address": "Bengaluru"
+    }
+  ],
+  "login": [
+    {
+      "id": "f577"
+    }
+  ]
+}
